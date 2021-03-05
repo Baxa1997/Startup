@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p,h1,h2,h3,h4,h5,h6,ul,ol{
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+button, textarea, input, select {
+    outline:none;
+}
+body {
+    background: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.slider {
+    margin:0 auto;
+    max-width: 1141px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.slider-item img {
+    width: 100%;
+}
+.slider-item {
+    padding:0 10px;
+    width: 260px;
+    overflow: hidden;
+}
+.item {
+    width: 100%;
+    height: 100%;
+    margin:0 auto;
+    position: relative;
+    overflow: hidden;
+}
+ .item-media {
+     position: absolute;
+     top:0;
+     left:0;
+     width: 100%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: flex-end;
+     background-color: rgb(85, 85, 85,0.502);
+     opacity:0;
+     transition: 0.7s;
+ }
+ .item:hover .item-media {
+     opacity: 1;
+ } 
+ .item-media a {
+     margin-bottom: 30px;
+     padding:5px 10px;
+     transition: 0.7s;
+ }
+ .item-media a:hover {
+     background: #c03010;
+ }
+ .item-media .fa {
+     color:#fff;
+ }
+ .left, .next {
+     color:#fff;
+     width: 36px;
+     height: 38px;
+     font-size: 30px;
+     border:none;
+     background: #8c8c8c;
+     position: absolute;
+     top: 30%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     transition: 0.7s;
+     outline:none !important;
+ }
+ .left {
+     margin-left:10px;
+     z-index: 10;
+ }
+ .next {
+     right:0;
+     margin-right:9px
+ }
+ .left:hover,
+ .next:hover {
+     background: #c03010;
+ }
+ 
+
+  
+ .services-slider {
+     max-width: 770px;
+     margin:0 auto 100px;
+     text-align: center;
+ }
+ .slick-dots {
+     display: flex;
+     justify-content: center;
+     margin-top: 42px;
+ }
+ .slick-dots li button {
+     display: none;
+ }
+ .slick-dots li {
+   width: 13px;
+   height: 13px;
+   border-radius: 50%;  
+   background: #dddddd;
+   margin:0 4px;
+ }
+ .slick-dots .slick-active {
+     background: #c0301c;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
